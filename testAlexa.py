@@ -119,8 +119,17 @@ def processSymptoms(symptom):
 	return question(msg)
 
 #ami_comorbidities= ["Chest Pain", "Vomiting", "Dizziness", "Shortness of Breath", "Sweating", "Nausea", "Anxiety", " Fast Heart Rate", "Heartburn"]
+<<<<<<< HEAD
 #ami_comorbidities = ["Shortness of breadth", "Dizziness", "Fast Heart Rate"]
 #@ask.intent("AMIIntent")
+=======
+ami_comorbidities = ["Shortness of breadth", "Dizziness", "Fast Heart Rate"]
+@ask.intent("AMIIntent")
+def diagnoseSecondaryAMI(ami):
+	ami_str = ". ".join(ami_comorbidities) + "?"
+	msg = "I noticed that you are have recurring " + ami + " according to your history. In addition you also have had an acute myocardial infarction in the past. In the past week, have you also had any of these comorbidities. Shortness of breath. Dizziness. Fast Heart Rate?" 
+	return question(msg)
+>>>>>>> 0a5162775ff07bec08b0ea1ddeaad68873835076
 
 
 #@ask.intent("RiskIntent")
