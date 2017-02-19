@@ -7,6 +7,8 @@ from collections import deque
 import infermedica_api
 infermedica_api.configure(app_id='32d6b77a', app_key='fd3b7c019eb63aa649b61c5fed4433c5')
 api = infermedica_api.get_api()
+request = infermedica_api.Diagnosis(sex='male', age=35) 
+numPasses = 0
 
 path = deque()
 
@@ -66,15 +68,28 @@ def yesIntent():
 def processSymptoms(symptom):
 	global history_illness_db 
 	symptoms = getSymptoms(symptom)
-	
-	actualSymps = ""
-	while(n < len(symptoms['mentions']), symptoms['mentions'][n]['choice_id'] == "present"):
-		actualSymps.append(symptoms['mentions'][n]['name'] + " ")
-		history_illness_db = np.vstack((history_illness_db, np.array([curr_date, symptoms['mentions'][n]['name']])))
 
-	msg = "Your symptoms are. " + actualSymps + ". What else do you need?"
+	#actualSymps = ""
+
+	while(n < len(symptoms['mentions'])):
+		if symptoms['mentions'][n]['choice_id'] == "present":
+			actualSymps.append(symptoms['mentions'][n]['name'] + " ")
+			history_illness_db = np.vstack((history_illness_db, np.array([curr_date, symptoms['mentions'][n]['name']])))
+		
+			request.add_symptom(symptoms['mentions'][n]['id'], symptoms['mentions'][n]['choice_id'])
+		
+	#msg = "Your symptoms are. " + actualSymps + ". What else do you need?"
 	
 	np.save("history.db.npy", history_illness_db)
+	
+	request = api.diagnosis(request)	
+	
+	if (numPasses < 10 and request.question.items[0]['id'] != ""):
+		msg = "Do you have " + request.question.items[0]['name']
+	else:
+		getDiagnosis()
+		return statement("Goodbye")
+
 	return question(msg)
 
 
