@@ -4,6 +4,12 @@ import json
 import requests
 import time
 from collections import deque
+import infermedica_api
+infermedica_api.configure(app_id='32d6b77a', app_key='fd3b7c019eb63aa649b61c5fed4433c5')
+api = infermedica_api.get_api()
+request = infermedica_api.Diagnosis(sex='male', age=35) 
+numPasses = 0
+
 path = deque()
 
 from datetime import datetime
@@ -61,10 +67,29 @@ def yesIntent():
 @ask.intent('SymptomIntent')
 def processSymptoms(symptom):
 	global history_illness_db 
-	print symptom
-	msg = "So. You " + symptom[1:] + ". That is unfortunate. What else do you need?"
-	history_illness_db = np.vstack((history_illness_db, np.array([curr_date, symptom])))
+	symptoms = getSymptoms(symptom)
+
+	#actualSymps = ""
+
+	while(n < len(symptoms['mentions'])):
+		if symptoms['mentions'][n]['choice_id'] == "present":
+			actualSymps.append(symptoms['mentions'][n]['name'] + " ")
+			history_illness_db = np.vstack((history_illness_db, np.array([curr_date, symptoms['mentions'][n]['name']])))
+		
+			request.add_symptom(symptoms['mentions'][n]['id'], symptoms['mentions'][n]['choice_id'])
+		
+	#msg = "Your symptoms are. " + actualSymps + ". What else do you need?"
+	
 	np.save("history.db.npy", history_illness_db)
+	
+	request = api.diagnosis(request)	
+	
+	if (numPasses < 10 and request.question.items[0]['id'] != ""):
+		msg = "Do you have " + request.question.items[0]['name']
+	else:
+		getDiagnosis()
+		return statement("Goodbye")
+
 	return question(msg)
 
 #ami_comorbidities= ["Chest Pain", "Vomiting", "Dizziness", "Shortness of Breath", "Sweating", "Nausea", "Anxiety", " Fast Heart Rate", "Heartburn"]
@@ -72,7 +97,7 @@ ami_comorbidities = ["Shortness of breadth", "Dizziness", "Fast Heart Rate"]
 @ask.intent("AMIIntent")
 def diagnoseSecondaryAMI(ami):
 	ami_str = ". ".join(ami_comorbidities) + "?"
-	msg = "I noticed that you are have recurring " + ami + " according to your history. In addition you also have had an acute myocardial infarction in the past. In the past week, have you also had any of these comorbidities. Shortness of breadth. Dizziness. Fast Heart Rate?" + 
+	msg = "I noticed that you are have recurring " + ami + " according to your history. In addition you also have had an acute myocardial infarction in the past. In the past week, have you also had any of these comorbidities. Shortness of breath. Dizziness. Fast Heart Rate?" + 
 	return question(msg)
 
 @ask.intent("AllIntent")
@@ -88,6 +113,13 @@ def modelTrain(comorbidities):
 def quit():
 	msg = "I'M TILTED"
 	return statement(msg)
+
+def getSymptoms(rawData):
+	return api.parse(rawData)
+
+
+def getDiagnosis():
+	pass
 
 if(__name__=='__main__'):
 	app.run(debug=True)
