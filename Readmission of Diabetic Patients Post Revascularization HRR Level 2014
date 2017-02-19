@@ -1,0 +1,305 @@
+State,Hospital_Referral_Region_Name,Percent_Readmission_Within_30_Days_Post_Revascularization,Black_Patients_Amputation_Free_Survival_Post_Vascular_Procedure,Non_Black_Patients_Amputation_Free_Survival_Post_Vascular_Procedure,Black_Patients_Reintervention_Free_Post_Vascular_Procedure,Non_Black_Patients_Reintervention_Free_Post_Vascular_Procedure
+Alabama,Birmingham,15.0,71.8,77.9,51.0,58.9
+Alabama,Dothan,19.4,,76.2,,50.3
+Alabama,Huntsville,14.0,,78.6,,56.9
+Alabama,Mobile,19.8,69.3,77.6,46.4,53.9
+Alabama,Montgomery,25.4,,,,
+Alabama,Tuscaloosa,18.2,,74.0,,47.3
+Alaska,Anchorage,14.9,,72.3,,50.2
+Arizona,Mesa,15.8,,76.3,,52.2
+Arizona,Phoenix,18.2,,78.2,,53.0
+Arizona,Sun City,18.5,,73.6,,48.4
+Arizona,Tucson,20.8,,69.2,,46.9
+Arkansas,Fort Smith,16.6,,74.2,,58.2
+Arkansas,Jonesboro,16.9,,79.0,,53.5
+Arkansas,Little Rock,17.0,70.7,77.9,44.7,53.1
+Arkansas,Springdale,17.5,,74.8,,53.3
+Arkansas,Texarkana,18.4,,81.9,,65.0
+California,Orange County,18.3,,73.0,,51.6
+California,Bakersfield,18.1,,71.8,,44.3
+California,Chico,13.8,,79.5,,51.6
+California,Contra Costa County,15.5,,69.9,,46.2
+California,Fresno,18.1,,74.1,,52.0
+California,Los Angeles,19.1,69.4,74.3,42.0,48.8
+California,Modesto,14.3,,79.6,,49.0
+California,Napa,15.3,,74.6,,45.9
+California,Alameda County,16.7,,73.4,,48.6
+California,Palm Springs/Rancho Mirage,16.3,,70.3,,56.0
+California,Redding,10.4,,79.3,,54.1
+California,Sacramento,16.6,,73.6,,50.2
+California,Salinas,15.3,,66.7,,48.8
+California,San Bernardino,15.6,,74.2,,49.9
+California,San Diego,17.0,,74.0,,50.9
+California,San Francisco,18.7,,75.4,,51.2
+California,San Jose,14.1,,74.8,,49.1
+California,San Luis Obispo,17.3,,,,
+California,San Mateo County,19.2,,72.4,,44.7
+California,Santa Barbara,15.5,,74.3,,55.1
+California,Santa Cruz,12.6,,76.3,,65.0
+California,Santa Rosa,15.0,,76.4,,54.6
+California,Stockton,15.9,,80.1,,46.2
+California,Ventura,16.2,,77.5,,48.7
+Colorado,Colorado Springs,15.1,,74.2,,56.6
+Colorado,Denver,18.0,,70.3,,51.7
+Colorado,Fort Collins,12.6,,,,
+Colorado,Greeley,15.9,,,,
+Colorado,Pueblo,20.7,,,,
+Connecticut,Bridgeport,16.0,,70.1,,46.2
+Connecticut,Hartford,20.1,,70.8,,47.6
+Connecticut,New Haven,19.9,,68.2,,46.7
+Delaware,Wilmington,18.1,71.1,73.9,46.5,47.1
+Dist. of Columbia,Washington,16.7,73.6,73.4,41.8,51.1
+Florida,Bradenton,16.1,,79.7,,44.5
+Florida,Clearwater,14.1,,79.5,,52.1
+Florida,Fort Lauderdale,17.6,66.5,75.9,44.6,52.5
+Florida,Fort Myers,14.9,,78.4,,57.7
+Florida,Gainesville,15.2,,80.9,,51.5
+Florida,Hudson,17.8,,75.5,,56.0
+Florida,Jacksonville,15.7,70.1,75.3,46.5,52.3
+Florida,Lakeland,15.7,,73.7,,51.4
+Florida,Miami,19.1,67.4,70.5,42.7,48.2
+Florida,Ocala,10.9,,82.8,,56.3
+Florida,Orlando,15.6,67.3,77.2,53.1,54.4
+Florida,Ormond Beach,14.5,,76.7,,53.4
+Florida,Panama City,13.4,,77.2,,46.1
+Florida,Pensacola,18.0,71.6,80.1,42.4,45.7
+Florida,Sarasota,15.1,,82.9,,56.6
+Florida,St. Petersburg,16.0,,78.8,,57.9
+Florida,Tallahassee,16.3,67.9,78.0,46.0,54.7
+Florida,Tampa,19.2,,79.6,,59.2
+Georgia,Albany,18.6,,,,
+Georgia,Atlanta,17.7,67.6,76.4,43.5,52.3
+Georgia,Augusta,19.3,65.7,75.6,38.1,48.7
+Georgia,Columbus,20.4,,70.2,,46.0
+Georgia,Macon,15.0,60.5,75.8,41.2,55.4
+Georgia,Rome,17.0,,71.5,,50.7
+Georgia,Savannah,14.3,53.7,74.2,41.8,52.1
+Hawaii,Honolulu,24.2,,67.9,,48.0
+Idaho,Boise,17.8,,71.7,,53.9
+Idaho,Idaho Falls,13.9,,,,
+Illinois,Aurora,16.3,,75.9,,44.9
+Illinois,Blue Island,23.6,67.6,77.2,48.2,48.7
+Illinois,Chicago,23.6,67.9,76.5,47.4,50.4
+Illinois,Elgin,24.3,,74.6,,46.8
+Illinois,Evanston,23.0,,72.4,,51.4
+Illinois,Hinsdale,16.0,,76.8,,48.8
+Illinois,Joliet,20.9,,76.5,,49.1
+Illinois,Melrose Park,19.1,,75.2,,47.0
+Illinois,Peoria,14.0,,76.2,,49.0
+Illinois,Rockford,18.0,,81.8,,57.8
+Illinois,Springfield,16.8,,78.9,,54.6
+Illinois,Urbana,17.3,,76.7,,48.6
+Illinois,Bloomington,13.8,,73.5,,50.5
+Indiana,Evansville,20.7,,69.9,,50.0
+Indiana,Fort Wayne,16.4,,72.1,,48.8
+Indiana,Gary,20.3,76.2,75.2,41.6,43.7
+Indiana,Indianapolis,21.6,65.1,76.8,36.0,46.6
+Indiana,Lafayette,20.0,,76.3,,51.8
+Indiana,Muncie,24.0,,74.3,,52.7
+Indiana,Munster,24.3,,78.4,,40.1
+Indiana,South Bend,17.7,,71.9,,48.7
+Indiana,Terre Haute,19.0,,81.5,,40.5
+Iowa,Cedar Rapids,12.7,,73.5,,51.7
+Iowa,Davenport,14.4,,82.6,,51.4
+Iowa,Des Moines,18.4,,75.8,,54.5
+Iowa,Dubuque,13.9,,,,
+Iowa,Iowa City,14.2,,78.2,,56.9
+Iowa,Mason City,17.1,,,,
+Iowa,Sioux City,30.7,,69.7,,43.0
+Iowa,Waterloo,16.2,,,,
+Kansas,Topeka,15.8,,76.8,,55.1
+Kansas,Wichita,15.3,,79.6,,50.3
+Kentucky,Covington,19.7,,72.0,,55.5
+Kentucky,Lexington,16.0,,77.6,,56.6
+Kentucky,Louisville,20.4,63.6,74.4,43.4,53.4
+Kentucky,Owensboro,12.3,,83.2,,68.5
+Kentucky,Paducah,28.8,,74.5,,48.6
+Louisiana,Alexandria,15.8,,75.1,,49.4
+Louisiana,Baton Rouge,17.1,64.4,73.8,39.7,50.9
+Louisiana,Houma,12.9,,77.4,,56.5
+Louisiana,Lafayette,18.5,70.6,76.9,40.0,46.3
+Louisiana,Lake Charles,19.7,,80.5,,48.5
+Louisiana,Metairie,18.2,,73.6,,50.9
+Louisiana,Monroe,16.9,,77.5,,53.3
+Louisiana,New Orleans,13.9,70.5,70.1,49.0,48.5
+Louisiana,Shreveport,19.8,68.4,75.0,46.5,47.2
+Louisiana,Slidell,20.4,,,,
+Maine,Bangor,16.7,,71.3,,52.2
+Maine,Portland,21.5,,76.9,,49.5
+Maryland,Baltimore,23.6,66.3,73.6,42.0,47.2
+Maryland,Salisbury,15.9,,78.0,,53.1
+Maryland,Takoma Park,19.1,68.5,76.2,39.7,51.7
+Massachusetts,Boston,20.7,73.7,74.5,51.2,50.1
+Massachusetts,Springfield,20.4,,70.1,,51.2
+Massachusetts,Worcester,25.9,,70.0,,46.8
+Michigan,Ann Arbor,14.3,,77.9,,50.6
+Michigan,Dearborn,17.4,,77.8,,48.6
+Michigan,Detroit,19.6,72.4,73.6,40.6,49.3
+Michigan,Flint,16.0,,72.9,,52.1
+Michigan,Grand Rapids,15.5,,74.4,,47.7
+Michigan,Kalamazoo,17.6,,75.4,,49.9
+Michigan,Lansing,15.5,,76.8,,52.3
+Michigan,Marquette,14.4,,75.6,,52.2
+Michigan,Muskegon,19.8,,75.0,,42.8
+Michigan,Petoskey,13.8,,77.0,,46.6
+Michigan,Pontiac,17.6,,77.7,,53.4
+Michigan,Royal Oak,19.0,,75.3,,50.0
+Michigan,Saginaw,15.7,,77.1,,49.1
+Michigan,St. Joseph,11.5,,82.6,,57.8
+Michigan,Traverse City,17.3,,81.9,,50.6
+Minnesota,Duluth,16.4,,73.7,,55.4
+Minnesota,Minneapolis,22.0,,73.8,,54.1
+Minnesota,Rochester,15.1,,71.8,,56.4
+Minnesota,St. Cloud,25.8,,,,
+Minnesota,St. Paul,20.2,,72.6,,52.5
+Mississippi,Gulfport,20.6,,75.6,,56.6
+Mississippi,Hattiesburg,13.8,,76.5,,56.4
+Mississippi,Jackson,16.6,60.6,75.2,48.1,54.3
+Mississippi,Meridian,13.8,,,,
+Mississippi,Oxford,21.3,,,,
+Mississippi,Tupelo,12.1,,82.0,,62.4
+Missouri,Cape Girardeau,17.6,,75.6,,57.5
+Missouri,Columbia,20.1,,77.3,,53.7
+Missouri,Joplin,20.7,,72.4,,51.4
+Missouri,Kansas City,18.1,68.6,75.2,47.7,52.6
+Missouri,Springfield,17.6,,79.0,,51.6
+Missouri,St. Louis,18.7,63.1,75.2,45.7,53.4
+Montana,Billings,19.1,,75.8,,61.3
+Montana,Great Falls,22.6,,,,
+Montana,Missoula,12.8,,76.7,,60.2
+Nebraska,Lincoln,19.9,,71.5,,48.0
+Nebraska,Omaha,19.4,,75.2,,56.5
+Nevada,Las Vegas,15.3,,79.2,,56.4
+Nevada,Reno,12.9,,77.5,,49.5
+New Hampshire,Lebanon,18.0,,72.5,,53.2
+New Hampshire,Manchester,17.9,,77.9,,54.2
+New Jersey,Camden,18.4,69.3,73.4,47.5,50.7
+New Jersey,Hackensack,17.9,,70.8,,47.9
+New Jersey,Morristown,19.1,,71.4,,50.1
+New Jersey,New Brunswick,18.6,,73.2,,54.1
+New Jersey,Newark,19.2,67.2,69.2,44.9,49.2
+New Jersey,Paterson,15.1,,73.7,,46.5
+New Jersey,Ridgewood,20.1,,68.2,,46.3
+New Mexico,Albuquerque,17.0,,70.9,,53.1
+New York,Albany,23.1,,73.4,,44.7
+New York,Binghamton,15.7,,72.6,,51.2
+New York,Bronx,22.4,64.9,67.0,36.0,41.0
+New York,Buffalo,16.8,,70.2,,49.1
+New York,Elmira,19.9,,71.6,,49.7
+New York,East Long Island,18.7,67.1,72.6,38.3,46.5
+New York,Manhattan,20.6,63.6,73.9,34.8,43.6
+New York,Rochester,18.1,,69.6,,54.5
+New York,Syracuse,16.9,,76.4,,47.7
+New York,White Plains,19.3,,69.5,,46.1
+North Carolina,Asheville,21.1,,75.0,,59.1
+North Carolina,Charlotte,16.0,69.4,78.5,52.8,57.1
+North Carolina,Durham,16.1,64.7,74.4,46.4,53.9
+North Carolina,Greensboro,17.8,,72.1,,53.0
+North Carolina,Greenville,16.2,65.7,73.2,50.2,53.8
+North Carolina,Hickory,15.8,,72.9,,51.0
+North Carolina,Raleigh,16.2,67.8,77.0,44.1,53.6
+North Carolina,Wilmington,14.7,73.4,78.5,51.6,55.2
+North Carolina,Winston-Salem,21.3,,76.0,,60.4
+North Dakota,Bismarck,18.1,,77.3,,59.8
+North Dakota,Fargo/Moorhead MN,22.8,,70.8,,48.0
+North Dakota,Grand Forks,23.1,,,,
+North Dakota,Minot,20.1,,,,
+Ohio,Akron,19.0,,67.8,,49.1
+Ohio,Canton,21.7,,67.5,,49.1
+Ohio,Cincinnati,18.6,67.4,73.3,41.4,47.0
+Ohio,Cleveland,21.2,67.0,69.4,40.3,44.8
+Ohio,Columbus,20.0,68.6,74.8,43.7,48.6
+Ohio,Dayton,17.4,,76.7,,52.9
+Ohio,Elyria,23.9,,77.8,,49.5
+Ohio,Kettering,12.1,,75.7,,54.0
+Ohio,Toledo,20.0,,75.4,,50.0
+Ohio,Youngstown,19.0,,70.9,,51.1
+Oklahoma,Lawton,15.8,,74.4,,51.0
+Oklahoma,Oklahoma City,16.8,,75.2,,56.2
+Oklahoma,Tulsa,17.7,,72.2,,51.9
+Oregon,Bend,19.7,,,,
+Oregon,Eugene,19.7,,75.0,,52.7
+Oregon,Medford,23.1,,74.8,,37.9
+Oregon,Portland,20.4,,73.4,,48.1
+Oregon,Salem,18.6,,,,
+Pennsylvania,Allentown,19.3,,70.4,,47.3
+Pennsylvania,Altoona,12.8,,73.7,,53.8
+Pennsylvania,Danville,21.5,,70.2,,49.4
+Pennsylvania,Erie,15.0,,73.3,,53.6
+Pennsylvania,Harrisburg,16.0,,72.2,,52.0
+Pennsylvania,Johnstown,17.4,,,,
+Pennsylvania,Lancaster,16.1,,76.1,,53.3
+Pennsylvania,Philadelphia,20.1,64.4,73.4,43.1,50.3
+Pennsylvania,Pittsburgh,20.5,,70.1,,46.4
+Pennsylvania,Reading,18.9,,73.1,,47.0
+Pennsylvania,Sayre,19.9,,80.9,,58.7
+Pennsylvania,Scranton,18.8,,77.4,,53.0
+Pennsylvania,Wilkes-Barre,18.1,,73.5,,50.4
+Pennsylvania,York,12.8,,74.9,,54.4
+Rhode Island,Providence,18.9,,69.4,,49.8
+South Carolina,Charleston,17.6,62.2,78.7,52.5,58.5
+South Carolina,Columbia,14.1,66.6,79.8,52.1,59.7
+South Carolina,Florence,14.5,68.9,70.5,55.0,50.1
+South Carolina,Greenville,14.8,,79.8,,59.8
+South Carolina,Spartanburg,16.7,,71.8,,55.3
+South Dakota,Rapid City,10.5,,,,
+South Dakota,Sioux Falls,29.4,,73.2,,47.4
+Tennessee,Chattanooga,15.8,,74.7,,50.9
+Tennessee,Jackson,14.1,,73.9,,53.8
+Tennessee,Johnson City,26.3,,79.4,,58.0
+Tennessee,Kingsport,16.2,,75.3,,65.2
+Tennessee,Knoxville,17.0,,73.5,,52.8
+Tennessee,Memphis,15.1,70.1,78.1,42.8,53.8
+Tennessee,Nashville,19.8,67.9,75.9,48.9,51.7
+Texas,Abilene,12.8,,77.8,,61.3
+Texas,Amarillo,17.5,,79.7,,52.2
+Texas,Austin,14.5,,77.6,,59.1
+Texas,Beaumont,13.3,71.9,77.7,47.6,52.4
+Texas,Bryan,16.2,,,,
+Texas,Corpus Christi,16.4,,75.4,,43.6
+Texas,Dallas,17.1,61.0,73.6,39.1,49.7
+Texas,El Paso,17.9,,72.6,,41.0
+Texas,Fort Worth,16.8,68.3,74.4,49.4,51.2
+Texas,Harlingen,13.6,,73.1,,49.5
+Texas,Houston,16.8,65.3,74.7,45.5,52.3
+Texas,Longview,15.3,,,,
+Texas,Lubbock,17.8,,77.5,,53.9
+Texas,McAllen,14.6,,79.8,,52.5
+Texas,Odessa,17.8,,73.2,,52.6
+Texas,San Angelo,19.0,,77.3,,52.3
+Texas,San Antonio,20.5,,70.5,,46.2
+Texas,Temple,16.4,,77.7,,53.8
+Texas,Tyler,19.1,,75.6,,45.8
+Texas,Victoria,19.8,,74.1,,59.0
+Texas,Waco,14.3,,78.8,,58.0
+Texas,Wichita Falls,14.3,,81.9,,60.5
+Utah,Ogden,11.8,,,,
+Utah,Provo,17.2,,,,
+Utah,Salt Lake City,15.1,,73.4,,53.9
+Vermont,Burlington,20.7,,75.0,,54.3
+Virginia,Arlington,16.1,62.2,72.6,41.0,51.5
+Virginia,Charlottesville,23.7,,79.1,,54.9
+Virginia,Lynchburg,19.0,,68.1,,53.6
+Virginia,Newport News,13.6,67.1,75.2,45.4,52.9
+Virginia,Norfolk,15.3,65.9,75.6,49.5,52.8
+Virginia,Richmond,17.6,65.7,74.8,40.5,55.2
+Virginia,Roanoke,27.6,,67.7,,44.2
+Virginia,Winchester,12.3,,80.0,,59.2
+Washington,Everett,19.3,,71.6,,46.6
+Washington,Olympia,21.1,,67.2,,42.1
+Washington,Seattle,17.1,,76.1,,46.9
+Washington,Spokane,20.4,,72.8,,47.7
+Washington,Tacoma,15.8,,72.1,,55.1
+Washington,Yakima,16.2,,83.4,,61.2
+West Virginia,Charleston,17.9,,74.4,,53.1
+West Virginia,Huntington,16.1,,76.9,,53.9
+West Virginia,Morgantown,22.0,,75.9,,51.8
+Wisconsin,Appleton,24.9,,64.9,,40.7
+Wisconsin,Green Bay,20.1,,73.1,,46.8
+Wisconsin,La Crosse,20.3,,,,
+Wisconsin,Madison,17.0,,74.1,,54.3
+Wisconsin,Marshfield,22.9,,76.7,,53.7
+Wisconsin,Milwaukee,18.8,67.2,73.5,51.2,50.1
+Wisconsin,Neenah,27.3,,,,
+Wisconsin,Wausau,20.0,,77.7,,52.2
+Wyoming,Casper,20.4,,,,

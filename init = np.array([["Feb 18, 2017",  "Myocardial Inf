@@ -1,0 +1,7 @@
+init = np.array([["Feb 18, 2017",  "Myocardial Infarction"]])
+
+np.save("history.db.npy", test)
+
+np.vstack((history_illness_db, np.array(["test", 1])))
+
+import numpy as np

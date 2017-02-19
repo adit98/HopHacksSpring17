@@ -1,0 +1,18 @@
+from numpy import genfromtxt
+ami_data = genfromtxt('Secondary_AMI.csv', delimiter=',')
+ami_data = ami_data[1:,2:]
+y_train =ami_data[:,0]
+ami_data = ami_data[:,1:]
+
+from sklearn.ensemble import RandomForestClassifier
+secondary_ami_model = RandomForestClassifier()
+secondary_ami_model.fit(ami_data, y_train)
+
+from numpy import genfromtxt
+ami_data = genfromtxt('Secondary_AMI.csv', delimiter=',')
+ami_data = ami_data[1:,2:]
+y_train =ami_data[:,0]
+ami_data = ami_data[:,1:]
+
+secondary_ami_model.predict_proba([1,1,1,1,1,1,1,1,1,1] + [0]*189)
+secondary_ami_model.predict_proba([1,1,0,1,1,1,1,1,1,1] + [0]*189)
