@@ -1,0 +1,20 @@
+{
+    "intents": [{
+        "intent": "YesIntent"
+    }, {
+        "intent": "NoIntent"
+    }, {
+        "intent": "NeedIntent",
+        "slots": [{
+      		"name": "need",
+      		"type": "list_of_needs"
+    	}]
+    }, {
+		"intent": "SymptomIntent",
+      	"slots": [{
+      		"name": "symptom",
+      		"type": "AMAZON.LITERAL"
+    	}]
+    }]
+
+}
