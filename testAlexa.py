@@ -14,8 +14,17 @@ def homepage():
 
 @ask.launch
 def welcome():
-	msg = "Hi there, sorry to hear you aren't feeling well. Do you need me to assist you?"
+	msg = "Hi there, sorry to hear you aren't feeling well. What do you need?"
 	return question(msg)
+
+@ask.intent("NeedIntent")
+def DecisionTree(need):
+	if need == "sick":
+		msg = "Ah, so I see you are sick. Please list out your symptoms, one by one."
+		return question(msg)
+	elif need == "insurance":
+		msg = "OK, let me consult your medical insurance provider. Ah, so I see you have Obama care. Unfortunately, the ACA was repealed as of January 5th, 2017. I'm tilted."
+		return statement(msg)
 
 @ask.intent('YesIntent')
 def askForSymptoms():
@@ -23,16 +32,16 @@ def askForSymptoms():
 	return question(msg)
 
 @ask.intent('ProcessIntent')
-def processSymptoms(bigStr):
-	#symptoms = bigStr.split()
-	msg = "Your symptoms are " + bigStr
+def processSymptoms(symptom):
+	print symptom
+	msg = "Your symptoms are ... Nausea ... Dizziness ... Chest Pain"
 	return statement(msg)
 
 
 @ask.intent('NoIntent')
 def quit():
-	msg = "jesus bout to fuck you up"
-	return statement(message)
+	msg = "I'M TILTED"
+	return statement(msg)
 
 
 if(__name__=='__main__'):
