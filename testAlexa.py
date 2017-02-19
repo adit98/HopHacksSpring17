@@ -97,7 +97,7 @@ ami_comorbidities = ["Shortness of breadth", "Dizziness", "Fast Heart Rate"]
 @ask.intent("AMIIntent")
 def diagnoseSecondaryAMI(ami):
 	ami_str = ". ".join(ami_comorbidities) + "?"
-	msg = "I noticed that you are have recurring " + ami + " according to your history. In addition you also have had an acute myocardial infarction in the past. In the past week, have you also had any of these comorbidities. Shortness of breath. Dizziness. Fast Heart Rate?" + 
+	msg = "I noticed that you are have recurring " + ami + " according to your history. In addition you also have had an acute myocardial infarction in the past. In the past week, have you also had any of these comorbidities. Shortness of breath. Dizziness. Fast Heart Rate?" 
 	return question(msg)
 
 @ask.intent("AllIntent")
