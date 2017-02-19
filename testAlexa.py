@@ -4,6 +4,10 @@ import json
 import requests
 import time
 from collections import deque
+import infermedica_api
+infermedica_api.configure(app_id='32d6b77a', app_key='fd3b7c019eb63aa649b61c5fed4433c5')
+api = infermedica_api.get_api()
+
 path = deque()
 
 from datetime import datetime
@@ -61,9 +65,15 @@ def yesIntent():
 @ask.intent('SymptomIntent')
 def processSymptoms(symptom):
 	global history_illness_db 
-	print symptom
-	msg = "Your symptoms are. " + symptom + ". What else do you need?"
-	history_illness_db = np.vstack((history_illness_db, np.array([curr_date, symptom])))
+	symptoms = getSymptoms(symptom)
+	
+	actualSymps = ""
+	while(n < len(symptoms['mentions']), symptoms['mentions'][n]['choice_id'] == "present"):
+		actualSymps.append(symptoms['mentions'][n]['name'] + " ")
+		history_illness_db = np.vstack((history_illness_db, np.array([curr_date, symptoms['mentions'][n]['name']])))
+
+	msg = "Your symptoms are. " + actualSymps + ". What else do you need?"
+	
 	np.save("history.db.npy", history_illness_db)
 	return question(msg)
 
@@ -73,6 +83,12 @@ def quit():
 	msg = "I'M TILTED"
 	return statement(msg)
 
+def getSymptoms(rawData):
+	return api.parse(rawData)
+
+
+def getDiagnosis():
+	pass
 
 if(__name__=='__main__'):
 	app.run(debug=True)
