@@ -62,9 +62,25 @@ def yesIntent():
 def processSymptoms(symptom):
 	global history_illness_db 
 	print symptom
-	msg = "Your symptoms are. " + symptom + ". What else do you need?"
+	msg = "So. You " + symptom[1:] + ". That is unfortunate. What else do you need?"
 	history_illness_db = np.vstack((history_illness_db, np.array([curr_date, symptom])))
 	np.save("history.db.npy", history_illness_db)
+	return question(msg)
+
+#ami_comorbidities= ["Chest Pain", "Vomiting", "Dizziness", "Shortness of Breath", "Sweating", "Nausea", "Anxiety", " Fast Heart Rate", "Heartburn"]
+ami_comorbidities = ["Shortness of breadth", "Dizziness", "Fast Heart Rate"]
+@ask.intent("AMIIntent")
+def diagnoseSecondaryAMI(ami):
+	ami_str = ". ".join(ami_comorbidities) + "?"
+	msg = "I noticed that you are have recurring " + ami + " according to your history. In addition you also have had an acute myocardial infarction in the past. In the past week, have you also had any of these comorbidities. Shortness of breadth. Dizziness. Fast Heart Rate?" + 
+	return question(msg)
+
+@ask.intent("AllIntent")
+def modelTrain(comorbidities):
+	ami_str = ". ".join(ami_comorbidities)
+	msg = "OK. You said" + ami_str + ". According to my model, you have a: "
+	
+
 	return question(msg)
 
 
@@ -72,7 +88,6 @@ def processSymptoms(symptom):
 def quit():
 	msg = "I'M TILTED"
 	return statement(msg)
-
 
 if(__name__=='__main__'):
 	app.run(debug=True)
